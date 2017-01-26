@@ -1,0 +1,82 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+a {
+  color: #ffffff;
+}
+
+.wrapper {
+  position: relative;
+  text-align: center;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.wrapper .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 160px 0 40px 0;
+}
+
+.wrapper .overlay:after {
+  content: '';
+  display: block;
+  background-image: url(../images/pattern.png);
+  background-repeat: repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.header .title {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.demo-page .thumb img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.demo-page .title a {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 48px;
+  color: #ffffff;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.demo-page .title a:hover {
+  text-decoration: none;
+  color: #8ec63f;
+}
+
+.demo-page .page {
+  margin-bottom: 100px;
+}
+
+.demo-page .copyright {
+  color: #ffffff;
+}
+
+.demo-page .copyright a {
+  color: #07aaa5;
+}
